@@ -1,0 +1,12 @@
+{
+    "presets":["es2015", "stage-0", "react"],
+    "plugins": [
+        ["module-resolver", {
+            "root": ["./"],
+            "alias": {
+                "test-app": "./src"
+            }
+        }],
+        "transform-decorators-legacy"
+    ]
+}
